@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Xalsier!
+### Hi there 👋 I'm Xalsier! ^-^
 
 🌱 **I’m currently learning:**
 - HTML
@@ -7,7 +7,7 @@
 - CSS
 
 🔭 **Current Projects:**
-- [Predation](https://github.com/Xalsier/predation): My website for my webnovel, Primal Samsara: Risk of Predation.
+- [Predation](https://github.com/Xalsier/predation): My website for my webnovel, Primal Samsara: Risk of Predation. (Rawr!)
 - [StripTS Compiler](https://github.com/Xalsier/StripTS-Compiler): A TypeScript to JavaScript compiler to facilitate TS integration with my website.
 
 **Future Plans:**
