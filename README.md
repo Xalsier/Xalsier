@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+I'm <strong style="color: red;">Xalsier</strong>
 <!--
 **Xalsier/Xalsier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
