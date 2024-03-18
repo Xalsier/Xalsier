@@ -9,7 +9,7 @@
 
 To show my learning progress, I've attached some samples to my personal repository [Xalsier](https://github.com/Xalsier/Xalsier).
 
-*These will only be code samples that, for the most part, are my authored by me and not AI Assisted.*
+*These will only be code samples that, for the most part, are authored by me and not AI Assisted.*
 
 🔭 **Current Projects:**
 - [Predation](https://github.com/Xalsier/predation): My website for my webnovel, Primal Samsara: Risk of Predation. (Rawr!)
