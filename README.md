@@ -7,9 +7,12 @@
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-To show my learning progress, I've attached some samples to [my personal repository](https://github.com/Xalsier/Xalsier).
+**Active Skills (At 50%)**
+- JSON (Data Structuring)
 
-*These will only be code samples that, for the most part, are authored by me and not AI Assisted.*
+**Notice**
+
+To show my learning progress, I've attached some samples to [my personal repository](https://github.com/Xalsier/Xalsier). *These will only be code samples that, for the most part, are authored by me and not AI Assisted.*
 
 🔭 **Current Projects:**
 - [Predation](https://github.com/Xalsier/predation): My website for my webnovel, Primal Samsara: Risk of Predation. (Rawr!)
@@ -19,9 +22,6 @@ To show my learning progress, I've attached some samples to [my personal reposit
 - I plan on learning new programming languages, focusing on how they can enhance my web development projects, particularly through tools like my TypeScript to JavaScript compiler.
 
 **Contact Me:**
-- 📫 Email: [xalsier@icloud.com](mailto:xalsier@icloud.com)
-- 🐦 Twitter: [@Zarushia](https://twitter.com/Zarushia)
+- 📫 [xalsier@icloud.com](mailto:xalsier@icloud.com)
+- 🐦 [![Twitter Badge](https://img.shields.io/badge/-Zarushia-1DA1F2?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/Zarushia)](https://twitter.com/Zarushia)
 
-### Connect with me:
-
-[![Twitter Badge](https://img.shields.io/badge/-Zarushia-1DA1F2?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/Zarushia)](https://twitter.com/Zarushia)
