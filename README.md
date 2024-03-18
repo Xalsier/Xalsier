@@ -7,7 +7,7 @@
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-To show my learning progress, I've attached some samples to my personal repository [Xalsier](https://github.com/Xalsier/Xalsier).
+To show my learning progress, I've attached some samples to [my personal repository](https://github.com/Xalsier/Xalsier).
 
 *These will only be code samples that, for the most part, are authored by me and not AI Assisted.*
 
