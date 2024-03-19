@@ -1,5 +1,3 @@
-📫 **Contact Email:** [xalsier@icloud.com](mailto:xalsier@icloud.com)
-
 To show my programming learning progress, I've attached some samples to [my personal repository](https://github.com/Xalsier/Xalsier). *These will only be code samples that, for the most part, are authored by me and not AI Assisted.*
 
 🔭 **Current Projects:**
