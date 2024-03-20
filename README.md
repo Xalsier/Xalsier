@@ -6,8 +6,8 @@ To show my programming learning progress, I've attached some samples to [my pers
 
 🔭 **Child Projects**
 
-[StripTS Compiler](https://github.com/Xalsier/StripTS-Compiler): A TypeScript to JavaScript compiler to facilitate TS integration with my website.
-[Webnovel-Parser](https://github.com/Xalsier/Webnovel-Parser): Isolated instance of the new webnovel parser for my webnovel, for future integration.
+[StripTS Compiler](https://github.com/Xalsier/StripTS-Compiler): A TypeScript to JavaScript compiler to facilitate TS integration with my website.<br>
+[Webnovel-Parser](https://github.com/Xalsier/Webnovel-Parser): Isolated instance of the new webnovel parser for my webnovel, for future integration.<br>
 [Nak_Calendar](https://github.com/Xalsier/nak_calendar): Isolated instance of the calendar for my webnovel, for future modifications.
 
 🔭 **Inactive Projects:**
