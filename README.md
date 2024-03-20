@@ -1,9 +1,14 @@
 To show my programming learning progress, I've attached some samples to [my personal repository](https://github.com/Xalsier/Xalsier). *These will only be code samples that, for the most part, are authored by me and not AI Assisted.*
 
-🔭 **Current Projects:**
+🔭 **Parent Project:**
 
 [Predation](https://github.com/Xalsier/predation): My website for my webnovel, Primal Samsara: Risk of Predation. (Rawr!) <br>
+
+🔭 **Child Projects**
+
 [StripTS Compiler](https://github.com/Xalsier/StripTS-Compiler): A TypeScript to JavaScript compiler to facilitate TS integration with my website.
+[Webnovel-Parser](https://github.com/Xalsier/Webnovel-Parser): Isolated instance of the new webnovel parser for my webnovel, for future integration.
+[Nak_Calendar](https://github.com/Xalsier/nak_calendar): Isolated instance of the calendar for my webnovel, for future modifications.
 
 🔭 **Inactive Projects:**
 
