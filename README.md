@@ -12,7 +12,7 @@ To show my programming learning progress, I've attached some samples to [my pers
 
 🔭 **Auxillary Projects:**
 
-[Blackjack Trouble](https://github.com/Xalsier/BlackjackTrouble): A visual novel with a blackjack minigame. (Once I have better internet I'll put the original card deck here)
+[Blackjack Trouble](https://github.com/Xalsier/BlackjackTrouble): A visual novel with a blackjack minigame. (Once I have better internet I'll put the original card deck here)<br>
 [Learn Japanese](https://github.com/Xalsier/learn-japanese): A repo with some mini games and card decks for learning japanese.
 
 🌱 **I’m currently learning:** 
