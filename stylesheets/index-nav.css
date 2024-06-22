@@ -1,0 +1,30 @@
+.my-background-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #a34848;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: #f06868;
+}
+
+.my-background-text {
+    color: #a34848;
+    transition: color 0.3s ease;
+}
+
+.item:hover .my-background-text, .item:hover .my-background-circle {
+    cursor: pointer;
+}
+
+.css-circle {
+    display: inline-block;
+    width: 18px; /* Circle size */
+    transition: background-color 0.5s ease;
+    height: 18px; /* Circle size */
+    border-radius: 50%; /* Makes the square a circle */
+    background-color: #fff; /* Circle color, change as needed */
+    opacity: 1; /* Adjust opacity as needed */
+}

@@ -97,24 +97,6 @@ main {
     transition: transform 0.3s ease;
 }
 
-.social-media-card {
-    background-color: #121212;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    display: flex;
-    gap: 15px;
-    justify-content: center; /* Centers the icons horizontally within the card */
-    align-items: center; /* Aligns the icons vertically */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.icon {
-    width: 40px; /* Size of the icons */
-    height: 40px; /* Size of the icons */
-    fill: #FDDA0D; /* Color of the icons, adjust if your SVGs are affected by the fill property */
-}
-
 .travel-card {
     width: 300px;
     margin: auto;
@@ -131,16 +113,6 @@ hr {
     background: #333;
 }
 
-.css-circle {
-    display: inline-block;
-    width: 18px; /* Circle size */
-    transition: background-color 0.5s ease;
-    height: 18px; /* Circle size */
-    border-radius: 50%; /* Makes the square a circle */
-    background-color: #fff; /* Circle color, change as needed */
-    opacity: 1; /* Adjust opacity as needed */
-}
-
 
 @keyframes fadeInRight {
     from {
@@ -151,25 +123,4 @@ hr {
         opacity: 1;
         transform: translateX(0);
     }
-}
-
-.my-background-circle {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: #a34848;
-    transition: background-color 0.3s ease;
-}
-
-.active {
-    background-color: #f06868;
-}
-
-.my-background-text {
-    color: #a34848;
-    transition: color 0.3s ease;
-}
-
-.item:hover .my-background-text, .item:hover .my-background-circle {
-    cursor: pointer;
 }

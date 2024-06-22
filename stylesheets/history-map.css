@@ -9,19 +9,17 @@
     height: auto;
 }
 
-#FL,
-#GA, #TN,
-#AL {
-    opacity: 1; /* Full opacity */
+#FL, #GA, #TN, #AL {
+    opacity: 1;
 }
 
 .map-container path {
-    fill: #a34848 !important; /* Default fill for other states */
+    fill: #a34848 !important;
     opacity: 0.3;
-    transition: fill 0.3s ease; /* Transition for fill */
+    transition: fill 0.3s ease;
 }
 
 .map-container path:hover {
     transition: transform 0.3s ease;
-    fill: #ff6f61 !important; /* Change color on hover */
+    fill: #ff6f61 !important;
 }
