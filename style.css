@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(16, 7, 7)
+}
+
+main {
+    max-width:530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.profile-card, .index-card, .history-card {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FDDA0D;
+    gap: 15px;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-card .info {
+    align-self: flex-start;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-card .details {
+    align-self: flex-end;
+    margin-top: auto;
+    color: #ddd;
+    font-size: 14px;
+    text-align: right;
+}
+
+.profile-card .detail-item {
+    opacity: 0.9;
+}
+
+.index-card, .history-card {
+    display: inline-block;
+}
+
+.index-card .header, .history-card .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 10px;
+    color: #FDDA0D;
+    font-weight: bold;
+}
+
+.index-card .item, .history-card .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 10px;
+}
+
+.index-card .item span, .history-card .item span {
+    color: #ddd;
+}
+
+.history-card img {
+    transition: transform 0.3s ease;
+}
+
+.social-media-card {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Centers the icons horizontally within the card */
+    align-items: center; /* Aligns the icons vertically */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon {
+    width: 40px; /* Size of the icons */
+    height: 40px; /* Size of the icons */
+    fill: #FDDA0D; /* Color of the icons, adjust if your SVGs are affected by the fill property */
+}
+
+.travel-card {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+
+hr {
+    margin-top: 10px;
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
+.map-container .us-map {
+    width: 100%;
+    height: auto;
+}
+
+.map-container svg{
+    width: 100%;
+    height: auto;
+}
+
+
+#FL,
+#GA,
+#AL {
+    opacity: 1; /* Full opacity */
+}
+
+path {
+    fill: #a34848 !important; /* Default fill for other states */
+    opacity: 0.3;
+}
+
+path:hover {
+    transform: scale(1.05);
+    transform-origin: center; /* Or specify x y coordinates like 50% 50% */
+    transition: transform 0.3s ease;
+}
