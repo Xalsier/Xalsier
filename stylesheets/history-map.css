@@ -1,15 +1,12 @@
-.map-container .us-map {
-    width: 100%;
-    height: auto;
-    border: 2px solid #333; /* Add border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-    border-radius: 8px; /* Add rounded corners */
+.map-container {
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
 }
 
 .map-container svg {
     width: 100%;
     height: auto;
-    margin: 20px; /* Add margin */
 }
 
 #FL,
@@ -18,15 +15,13 @@
     opacity: 1; /* Full opacity */
 }
 
-path {
+.map-container path {
     fill: #a34848 !important; /* Default fill for other states */
     opacity: 0.3;
     transition: fill 0.3s ease; /* Transition for fill */
 }
 
-path:hover {
-    transform: scale(1.05);
-    transform-origin: center; /* Or specify x y coordinates like 50% 50% */
+.map-container path:hover {
     transition: transform 0.3s ease;
     fill: #ff6f61 !important; /* Change color on hover */
 }
