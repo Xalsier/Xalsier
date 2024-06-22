@@ -1,4 +1,4 @@
-$.get('/cache/history.html', function(data) {historyContentCache = $(data).find('.history-card').clone();});
+$.get('../cache/history.html', function(data) {historyContentCache = $(data).find('.history-card').clone();});
 $('.my-background-text, .my-background-circle').click(function() {
     let item = $(this).closest('.item');
     let isActive = item.find('.my-background-circle').toggleClass('active').hasClass('active');
