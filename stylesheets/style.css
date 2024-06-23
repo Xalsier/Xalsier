@@ -25,7 +25,7 @@ main {
     flex-wrap: wrap;
 }
 
-.profile-card, .index-card, .history-card {
+.profile-card, .index-card, .history-card, .workshop-card {
     background-color: #121212;
     padding: 20px;
     border-radius: 10px;
@@ -73,7 +73,7 @@ main {
     display: inline-block;
 }
 
-.index-card .header, .history-card .header {
+.index-card .header, .history-card .header, .workshop-card .header {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
@@ -110,8 +110,56 @@ hr {
     margin-top: 10px;
     border: 0;
     height: 1px;
-    background: #333;
+    background: #ffffff;
 }
+
+.workshop-card {
+    width: 400px;
+    height: auto; /* Adjust height if needed */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px; /* Adds padding at the bottom inside the card */
+}
+
+.description {
+    color: white;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.mat-description-div {
+    padding: 10px;
+    color: white;
+    opacity: 0.7;
+}
+
+.material-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+    padding: 10px;
+    margin-bottom: 10px; /* Adds margin at the bottom outside the list */
+}
+
+.material-list span {
+    margin-top: auto; /* Aligns span elements to the bottom */
+    border-radius: 10px;
+    background-color: rgb(0, 242, 255);
+    opacity: 0.9;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 0 10px #000000;
+    text-align: center;
+}
+
+.material-list span:hover {
+    opacity: 0.5;
+    transition: 0.3s opacity;
+}
+
 
 
 @keyframes fadeInRight {
