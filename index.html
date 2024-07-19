@@ -7,12 +7,13 @@
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="./stylesheets/history-map.css">
     <link rel="stylesheet" type="text/css" href="./stylesheets/index-nav.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/Devanagari.css">
+
     <script src="./libraries/jquery.js" crossorigin="anonymous"></script>
-   </head>
+</head>
 <body>
     <main>
         <div class="container">
-            <!-- Profile Card -->
             <div class="profile-card">
                 <img src="./icons/maxtorcito.png" alt="Profile Image">
                 <div class="info">
@@ -24,19 +25,7 @@
                         <div class="detail-item" style="opacity: 0.3;">Assisted Programmer</div>
                     </div>
                 </div>
-                <div class="info">
-                    <div class="details">
-                        <div style="text-align:left;opacity: 0.5;">21</div>
-                        <div style="text-align:left;opacity: 0.6;">Furry</div>
-                        <div style="text-align:left;opacity: 0.7;">Bisexual</div>
-                        <div style="text-align:left;opacity: 0.8;">Hispanic</div>
-                        <div style="text-align:left;opacity: 0.9;">American</div>
-
-                    </div>
-                </div>
             </div>
-    
-            <!-- Index Card -->
             <div class="index-card">
                 <div class="header">Index</div>
                 <hr>
@@ -45,26 +34,31 @@
                     <span class="my-background-text" style="opacity: 1; color:#a34848">My Background</span>
                 </div>
                 <div class="item">
-                    <span style="background-color:#a34848" class="css-circle workshop-circle"></span>
-                    <span style="opacity: 1; color:#a34848;" class="workshop-text">Vendor Workshop</span>
+                    <span class="css-circle"></span>
+                    <span class="art-portfolio-text" style="opacity: 0.3;">Art Portfolio</span>
                 </div>
                 <div class="item">
                     <span class="css-circle"></span>
-                    <span style="opacity: 0.3;">Artwork Portfolio</span>
-                </div>
-                <div class="item">
-                    <span class="css-circle"></span>
-                    <span style="opacity: 0.3;">Technical Projects</span>
+                    <span class="technical-projects-text" style="opacity: 0.3;">Technical Projects</span>
                 </div>
             </div>
-            
-            
 
+            <div class="hirigana-card" style="display:none;">
+                <div class="hiragana">
+                    अ
+                </div>
+                <div class="content-hiri">
+                    <div class="placeholder-text">Learn Devanagari</div>
+                    <button id="start-button" onclick="startGame()">Start</button>
+                    <input type="text" class="input-field" placeholder="Enter text..." onkeypress="handleKeyPress(event)" style="display: none;">
+                </div>
+            </div>
         </div>
     </main>
     <script src="./javascript/config.js"></script>
     <script src="./javascript/main.js"></script>
     <script src="./javascript/data.js"></script>
     <script src="./javascript/book.js"></script>
+    <script src="./javascript/Devanagari.js"></script>
 </body>
 </html>

@@ -1,0 +1,53 @@
+.hirigana-card {
+    display: flex;
+    background-color: #333333;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.hiragana {
+    font-size: 48px;
+    padding: 20px;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 1s;
+}
+
+.content-hiri {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.placeholder-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:white;
+}
+
+.input-field {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: #333;
+    background-color: #FFFFFF;
+}
+
+@keyframes colorGreen {
+    0% { color: #a0d468; }
+}
+
+@keyframes colorYellow {
+    0% { color: #ffeb3b; }
+}
+
+@keyframes colorRed {
+    0% { color: #ef5350; }
+}
